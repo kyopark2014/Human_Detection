@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HumanTracker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP17D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HumanTracker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Project\Detection\PrimaryDetectorFromCamera\HumanTrackerDlg.cpp"
+"D:\Project\Detection\PrimaryDetectorFromCamera\InterFace.cpp"
+"D:\Project\Detection\PrimaryDetectorFromCamera\LocalTracker.cpp"
+"D:\Project\Detection\PrimaryDetectorFromCamera\MotionTracker.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP17D.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP17E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HumanTracker.pdb" /debug /machine:I386 /out:"Debug/HumanTracker.exe" /pdbtype:sept 
+.\Debug\Detection.obj
+.\Debug\HumanTracker.obj
+.\Debug\HumanTrackerDlg.obj
+.\Debug\InterFace.obj
+.\Debug\LocalTracker.obj
+.\Debug\MotionSplit.obj
+.\Debug\MotionTracker.obj
+.\Debug\StdAfx.obj
+.\Debug\HumanTracker.res
+.\Debug\CxImage.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP17E.tmp"
+<h3>Output Window</h3>
+Compiling...
+HumanTrackerDlg.cpp
+Generating Code...
+Compiling...
+InterFace.cpp
+LocalTracker.cpp
+MotionTracker.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/HumanTracker.bsc"  .\Debug\StdAfx.sbr .\Debug\Detection.sbr .\Debug\HumanTracker.sbr .\Debug\HumanTrackerDlg.sbr .\Debug\InterFace.sbr .\Debug\LocalTracker.sbr .\Debug\MotionSplit.sbr .\Debug\MotionTracker.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HumanTracker.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

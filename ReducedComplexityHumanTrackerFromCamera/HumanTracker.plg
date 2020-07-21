@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HumanTracker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/HumanTracker.res" /d "_DEBUG" /d "_AFXDLL" "D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\HumanTracker.rc"" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP346.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/HumanTracker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\Detection.cpp"
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\HumanTracker.cpp"
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\HumanTrackerDlg.cpp"
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\InterFace.cpp"
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\LocalTracker.cpp"
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\MotionTracker.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP346.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP347.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/HumanTracker.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Project\Detection\ReducedComplexityHumanTrackerFromCamera\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP347.tmp" 
+Creating temporary file "C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP348.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/HumanTracker.pdb" /debug /machine:I386 /out:"Debug/HumanTracker.exe" /pdbtype:sept 
+.\Debug\Detection.obj
+.\Debug\HumanTracker.obj
+.\Debug\HumanTrackerDlg.obj
+.\Debug\InterFace.obj
+.\Debug\LocalTracker.obj
+.\Debug\MotionTracker.obj
+.\Debug\StdAfx.obj
+.\Debug\HumanTracker.res
+.\Debug\CxImage.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\msdl\LOCALS~1\Temp\RSP348.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Detection.cpp
+HumanTracker.cpp
+HumanTrackerDlg.cpp
+InterFace.cpp
+LocalTracker.cpp
+MotionTracker.cpp
+Generating Code...
+Linking...
+LINK : LNK6004: Debug/HumanTracker.exe not found or not built by the last incremental link; performing full link
+   Creating library Debug/HumanTracker.lib and object Debug/HumanTracker.exp
+
+
+
+<h3>Results</h3>
+HumanTracker.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
